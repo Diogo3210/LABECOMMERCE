@@ -1,0 +1,13 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Primeiro projeto backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "jokenpo":"node jokenpo.js",
+    "par-impar": "node par-ou-impar.js"
+  },
+  "author": "Diogo Alves",
+  "license": "ISC"
+}
