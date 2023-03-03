@@ -4,10 +4,12 @@
   "description": "Primeiro projeto backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "jokenpo":"node jokenpo.js",
-    "par-impar": "node par-ou-impar.js"
+    "start": "tsc && node ./build/index.js"
   },
   "author": "Diogo Alves",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "typescript": "^4.9.5"
+  }
 }
