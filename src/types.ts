@@ -8,12 +8,22 @@ export type Tproduct = {
     id: string,
     name: string,
     price: number,
-    category: string
+    category: CATEGORIES
 }
 
 export type Tpurchase = {
-    userId:string,
-    productId:string,
-    quantity:number,
-    totalPrice:number
+    userId: string,
+    productId: string,
+    quantity: number,
+    totalPrice: number
+}
+
+
+//Feedback Typescript II
+// Exercicio 1
+
+export enum CATEGORIES {
+    GAMES = "Games",
+    NOTEBOOKS = "Notebooks",
+    CELLPHONES = "Cellphones"
 }
